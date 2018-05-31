@@ -20,7 +20,10 @@ class DataGen(object):
     GO_ID = 1
     EOS_ID = 2
     IMAGE_HEIGHT = 32
-    CHARMAP = ['', '', ''] + list('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+#    CHARMAP = ['', '', ''] + list('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    CHARMAP = ['', '', '', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9','A', 
+               'B', 'C', 'D', 'E', 'F', 'G','H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
+               'Q', 'R', 'S', 'T', 'U','V', 'W', 'X', 'Y', 'Z']
 
     @staticmethod
     def set_full_ascii_charmap():

@@ -12,10 +12,10 @@ except(IOError, ImportError):
 
 setup(
     name='aocr',
-    url='https://github.com/emedvedev/attention-ocr',
-    download_url='https://github.com/emedvedev/attention-ocr/archive/{}.tar.gz'.format(VERSION),
-    author='Ed Medvedev',
-    author_email='edward.medvedev@gmail.com',
+    url='https://github.com/laldev/attention-ocr',
+    download_url='https://github.com/laldev/attention-ocr/archive/{}.tar.gz'.format(VERSION),
+    author='jithin',
+    author_email='jithinlaldev@gmail.com',
     version=VERSION,
     install_requires=REQUIRED_PACKAGES,
     packages=find_packages(),
